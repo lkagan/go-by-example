@@ -20,7 +20,7 @@ func main() {
 			return n
 		}
 
-		return fib(n-1) + fib(n-1)
+		return fib(n-1) + fib(n-2)
 	}
 
 	fmt.Println(fib(7))
