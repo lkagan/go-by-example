@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("Rune count:", utf8.RuneCountInString(s))
 
 	for idx, runeValue := range s {
-		fmt.Println("%#U starts at %d\n", runeValue, idx)
+		fmt.Printf("%#U starts at %d\n", runeValue, idx)
 	}
 
 	fmt.Println("\nUsing DecodeRunInString")
